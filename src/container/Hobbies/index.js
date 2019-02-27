@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import MainLayout from "../../layout/MainLayout";
 
 class Hobbies extends Component {
     render() {
-      return <div>Hobbies</div>
+      return <MainLayout selectedKey = {this.props.location.pathname} > Hobib < /MainLayout>
     }
 }
 
