@@ -3,7 +3,7 @@ import MainLayout from "../../layout/MainLayout";
 
 class Hobbies extends Component {
     render() {
-      return <MainLayout selectedKey = {this.props.location.pathname} > Hobib < /MainLayout>
+      return <MainLayout selectedKey = {this.props.location.pathname} > Hobbies < /MainLayout>
     }
 }
 
