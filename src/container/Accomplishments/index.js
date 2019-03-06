@@ -9,14 +9,14 @@ const accomplishmentsList = [
     title: "Wentworth's Computer Science Society",
     date: "September 2016",
     subtitle: "Treasurer",
-    description: "Elected Treasurer for Wentworth's first Computer Science Society - Chapter of ACM",
+    description: "Elected Treasurer for Wentworth's first Computer Science organization that is a Chapter of ACM",
   },
   {
     icon: "down-circle",
     title: "HackWITUs 1",
     date: "March 2017",
     subtitle: "Head of Finance",
-    description: `Helped raise more than $10,000 in sponsorships through reaching out to personal network and company representatives. 
+    description: `https://hackwit.us/ - Helped raise more than $10,000 in sponsorships through reaching out to personal network and company representatives. 
                   Managed event's cash flow (Food, Venue ..etc) and maintained transparency with spreadsheets`,
   },
   {

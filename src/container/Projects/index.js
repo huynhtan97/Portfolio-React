@@ -5,7 +5,7 @@ import MainLayout from "../../layout/MainLayout";
 import sheFightsBack from "../../assets/images/sheFightsBack.png";
 import imageRecognition from "../../assets/images/imageRecognitionApp.png";
 import chatBot from "../../assets/images/chatBotApp.jpg";
-import sugarPoke from "../../assets/images/sugarPokeApp.jpeg";
+import everlead from "../../assets/images/everlead.png";
 
 const projects = [
   {
@@ -34,11 +34,11 @@ const projects = [
     link: "https://github.com/huynhtan97/mood-bot",
   },
   {
-    title: "sugAR Poke",
+    title: "Everlead",
     status: "Ongoing",
-    description: `AR App built using Unity and Vuforia which allows users to hover over a food item and see how much sugar is in it.`,
-    image: sugarPoke,
-    link: "https://github.com/huynhtan97/sheFightsBack",
+    description: `Website built for my past LeaderShape mentor`,
+    image: everlead,
+    link: "https://github.com/huynhtan97/Everlead",
   }
 ]
 
