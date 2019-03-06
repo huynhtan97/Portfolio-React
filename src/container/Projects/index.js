@@ -36,7 +36,7 @@ const projects = [
   {
     title: "Everlead",
     status: "Ongoing",
-    description: `Website built for my past LeaderShape mentor`,
+    description: `Website built for my past LeaderShape mentor using MaterializeCSS`,
     image: everlead,
     link: "https://github.com/huynhtan97/Everlead",
   }

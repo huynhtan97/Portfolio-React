@@ -53,7 +53,10 @@ class Landing extends Component {
       <Content className="landingField">
         <h1 className="mainTitle">Prospective Software Engineer</h1>
         <h3 className="subTitle">BA in Computer Science - Class of 2019</h3>
-        <Button href="https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume2019.pdf">Resume</Button>
+        <span className="bannerButtons">
+          <Button type="primary" href="https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume2019.pdf">Resume</Button>
+          <Button href="https://huynhtan97.github.io/Portfolio/">My AngularJs Site</Button>
+        </span>
       </Content>
     );
   };
