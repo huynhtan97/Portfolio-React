@@ -28,7 +28,7 @@ const accomplishmentsList = [
   },
   {
     icon: "down-circle",
-    title: "WSG",
+    title: "Wentworth's Student Government",
     date: "September 2017",
     subtitle: "Treasurer",
     description: `First female elected Treasurer in 7+ years. Directed co-sponsorship program and managed annual $8500 budget`,

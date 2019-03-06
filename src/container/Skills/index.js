@@ -47,6 +47,7 @@ const softwareSkills = [
   { color: "gold", title: "ServiceNow", years: 1},
   { color: "green", title: "Unity", years: 3},
   { color: "green", title: "Microsoft Office", years: 8},
+  { color: "gold", title: "VMWare", years: 1},
 ];
 class Skills extends Component {
             
