@@ -75,7 +75,7 @@ class Landing extends Component {
               in order to meet new people and seek opportunities in the city.</p>
             <p>I got into the field back in my Junior Year of high school where I took my first computer programming class. From there, I have both
               learned and gotten involved more within the field from attending hackathons, to self-teaching myself various languages like Javascript and PHP.</p>
-            <p><b>To view my skills, projects, achievements, work experience, and hobbies:</b> Please navigate to the page in sidenav </p>
+            <p><b>To view my skills, projects, achievements, and work experience:</b> Please navigate to the page in sidenav </p>
           </Card>
         </Col>
         </Row>

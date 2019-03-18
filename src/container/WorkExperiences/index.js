@@ -51,7 +51,7 @@ class WorkExperiences extends Component {
   renderDescription = (date, description) => (
     <div>
       <h5 className="accomplishmentDate">{date}</h5> 
-      <p>{description}</p>
+      <p>Skills: {description}</p>
     </div>
   )
 
