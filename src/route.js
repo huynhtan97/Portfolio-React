@@ -42,4 +42,11 @@ export default [
         route: "/workexperiences",
         exact: false
     },
+    // {
+    //     name: "Hobbies",
+    //     component: Hobbies,
+    //     icon: "smile",
+    //     route: "/hobbies",
+    //     exact: false
+    // },
 ]

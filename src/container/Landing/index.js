@@ -70,7 +70,7 @@ class Landing extends Component {
         <Col md={12} xs={24}>
           <Card className="aboutMeCard" title="About Me">
             <p>Hi! Thank you for visiting my website!</p>
-            <p>I'm currently a Senior in Computer Science (with minors in Applied Math and Electrical Engineering) at Wentworth
+            <p>I'm currently a Senior in Computer Science (with minors in Applied Math) at Wentworth
               Institute of Technology in Boston, MA. I'm originally from West Hartford, CT and decided to move to the city
               in order to meet new people and seek opportunities in the city.</p>
             <p>I got into the field back in my Junior Year of high school where I took my first computer programming class. From there, I have both
