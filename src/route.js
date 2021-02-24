@@ -3,7 +3,7 @@ import Skills from "./container/Skills";
 import Projects from "./container/Projects";
 import Accomplishments from "./container/Accomplishments";
 import WorkExperiences from "./container/WorkExperiences";
-import Hobbies from "./container/Hobbies";
+// import Hobbies from "./container/Hobbies";
 
 // For icons: https://ant.design/components/icon/
 export default [

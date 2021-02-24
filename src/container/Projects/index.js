@@ -47,11 +47,10 @@ class Projects extends Component {
       return (
         <Row gutter={16} justify="center" align="middle">
           {projects.map(project => (
-            <Col key={project.title} md={12} xs={24} style={{ marginBottom: 16, marginTop: 16}}>
+            <Col key={project.title} xl={6} lg={6} md={12} xs={24} sm={24} style={{ marginLeft: 32, marginBottom: 16, marginTop: 16}}>
               <Card                                                                
                 actions={[<a href={project.link}><Button type="primary" shape="round" icon="github" size="large">Source Code</Button></a>]}
-                cover={<img src={project.image} alt={project.title} style={{ maxHeight: "400px", overflow: "hidden" }}/>} 
-                style={{width:450}}               
+                cover={<img src={project.image} alt={project.title} style={{ maxHeight: "400px", overflow: "hidden" }}/>}                
               >
                 <Card.Meta 
                   title={`${project.title} (${project.status})`}
