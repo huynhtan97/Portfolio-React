@@ -51,7 +51,7 @@ class Landing extends Component {
   renderLanding() {
     return (
       <Content className="landingField">
-        <h1 className="mainTitle">Prospective Software Engineer</h1>
+        <h1 className="mainTitle">Welcome to my site</h1>
         <h3 className="subTitle">BA in Computer Science - Class of 2019</h3>
         <span className="bannerButtons">
           <Button type="primary" href="https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume.pdf">Resume</Button>
@@ -70,9 +70,8 @@ class Landing extends Component {
         <Col md={12} xs={24}>
           <Card className="aboutMeCard" title="About Me">
             <p>Hi! Thank you for visiting my website!</p>
-            <p>I'm currently a Senior in Computer Science (minoring in Applied Math) at Wentworth
-              Institute of Technology in Boston, MA. I'm originally from West Hartford, CT and decided to move to the city
-              in order to meet new people and seek opportunities in the city.</p>
+            <p>I graduated from Wentworth Institute of Technology with a Bachelor's degree in Computer Science with a minor in Applied Math. I'm originally from West Hartford, CT and decided to move to the city
+              in order to meet new people and seek opportunities.</p>
             <p>I got into the field back in my Junior Year of high school where I took my first computer programming class. From there, I have both
               learned and gotten involved more within the field from attending hackathons, to self-teaching myself various languages like Javascript and PHP.</p>
             <p><b>To view my skills, projects, achievements, and work experience:</b> Please navigate to the page in sidenav </p>

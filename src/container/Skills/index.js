@@ -33,7 +33,8 @@ const toolsAndServicesSkills = [
 const frameworkSkills = [
   { color: "volcano", title: "AngularJS", years: 2}, 
   { color: "gold", title: "React", years: 1},
-  { color: "volcano", title: "Rails", years: 2}, 
+  { color: "volcano", title: "Rails", years: 2},
+  { color: "volcano", title: "Spark", years: 2},  
 ];
 const softwareSkills = [
   { color: "volcano", title: "Android Studio", years: 2}, 
