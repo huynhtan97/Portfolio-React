@@ -10,7 +10,6 @@ import everlead from "../../assets/images/everlead.png";
 const projects = [
   {
     title: "shefightsback",
-    status: "Completed",
     description: `Winner of Most Innovative and She Learns (Best Beginners) prize at SheHacks 2018. Mobile application aimed to
           allow victims of domestic abuse to efficiently report incidents and reach out for help without risk of personal safety`,
     image: sheFightsBack,
@@ -18,7 +17,6 @@ const projects = [
   },
   {
     title: "IBM Cloud Image Recognition",
-    status: "Completed",
     description: `Application built with Node-Red and IBM Cloud's Image Recognition API that allows users to identify the gender and age 
                   of a person based on their image url.`,
     image: imageRecognition,
@@ -26,7 +24,6 @@ const projects = [
   },
   {
     title: "IBM Cloud Chat bot",
-    status: "Completed",
     description: `AI Chat bot built using IBM Cloud's Watson Assistant and Tone Analyzer API, as well as APIXU's Weather API. Current 
                   functionalities include: - Greetings - Telling Jokes - Getting user's name - Informing you on weather - Changing 
                   responses based on user's tone in text. Hoping to add: - Personality Analyzer API - More features with Tone Analyzer`,
@@ -35,7 +32,6 @@ const projects = [
   },
   {
     title: "Everlead",
-    status: "Completed",
     description: `Website built for my past LeaderShape mentor using MaterializeCSS`,
     image: everlead,
     link: "https://github.com/huynhtan97/Everlead",
@@ -53,7 +49,7 @@ class Projects extends Component {
                 cover={<img src={project.image} alt={project.title} style={{ maxHeight: "400px", overflow: "hidden" }}/>}                
               >
                 <Card.Meta 
-                  title={`${project.title} (${project.status})`}
+                  title={`${project.title}`}
                   description={project.description}                  
                 />   
               </Card>                                                                                                                                                                                            
