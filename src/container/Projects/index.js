@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "IBM Cloud Chat bot",
-    status: "Ongoing",
+    status: "Completed",
     description: `AI Chat bot built using IBM Cloud's Watson Assistant and Tone Analyzer API, as well as APIXU's Weather API. Current 
                   functionalities include: - Greetings - Telling Jokes - Getting user's name - Informing you on weather - Changing 
                   responses based on user's tone in text. Hoping to add: - Personality Analyzer API - More features with Tone Analyzer`,
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "Everlead",
-    status: "Ongoing",
+    status: "Completed",
     description: `Website built for my past LeaderShape mentor using MaterializeCSS`,
     image: everlead,
     link: "https://github.com/huynhtan97/Everlead",
