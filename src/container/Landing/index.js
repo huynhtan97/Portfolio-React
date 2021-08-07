@@ -16,8 +16,8 @@ const contactInfo = [
   },
   {
     name: "Email",
-    link: "mailto:huynha1@wit.edu",
-    textInfo: "huynha1@wit.edu",
+    link: "mailto:anh9263@gmail.com",
+    textInfo: "anh9263@gmail.com",
     icon: "mail",
   },
   {
@@ -34,8 +34,8 @@ const contactInfo = [
   },
   {
     name: "Current City",
-    link: "https://goo.gl/maps/cUr6fd9R7ZS2",
-    textInfo: "Boston, MA",
+    link: "https://goo.gl/maps/xU5yeBia2uahncK19",
+    textInfo: "New York, NY",
     icon: "star",
   },
   {
