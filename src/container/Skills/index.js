@@ -9,7 +9,7 @@ import MainLayout from '../../layout/MainLayout';
   * if years < 2, then color = cyan
  */
 const programmingLanguageSkills = [
-  { color: "green", title: "Java", years: 5}, 
+  { color: "green", title: "Java", years: 7}, 
   { color: "green", title: "Javascript", years: 3}, 
   { color: "green", title: "HTML", years: 3}, 
   { color: "green", title: "CSS/Bootstrap", years: 3}, 
