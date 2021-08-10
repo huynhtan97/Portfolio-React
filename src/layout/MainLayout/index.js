@@ -45,7 +45,7 @@ class MainLayout extends Component {
             collapsed={this.state.collapsed}
           >
             <span className="logo">
-              {this.state.collapsed ? "An" : "An Huynh"}
+              {this.state.collapsed ? "" : ""}
             </span>
             <Menu
               theme="dark"
@@ -65,7 +65,7 @@ class MainLayout extends Component {
         )}
         {this.props.isMobile && (
           <Drawer
-            title="An Huynh"
+            title=""
             placement="left"
             closable
             onClose={this.toggle}

@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { Icon, Collapse } from "antd";
 // Wrap this around every page to get sidenav and toolbar
 import MainLayout from "../../layout/MainLayout";
-import { Steps, Icon } from 'antd';
 
 const accomplishmentsList = [
   {
-    icon: "star",
+    icon: "down-circle",
     title: "Wentworth's Computer Science Society",
     date: "September 2016",
     subtitle: "Treasurer",
-    description: "Elected Treasurer for Wentworth's first Computer Science organization that is a Chapter of ACM",
+    description:
+      "Elected Treasurer for Wentworth's first Computer Science organization that is a Chapter of ACM",
   },
   {
     icon: "down-circle",
@@ -46,14 +47,16 @@ const accomplishmentsList = [
     title: "HackWITUs 2",
     date: "November 2017",
     subtitle: "Head of Finance",
-    description: "Served as Head of Finance again for Wentworth's second annual hackathon. Helped raise more than $10,000 in sponsorships",
+    description:
+      "Served as Head of Finance again for Wentworth's second annual hackathon. Helped raise more than $10,000 in sponsorships",
   },
   {
     icon: "down-circle",
     title: "CIO Search Committee",
     date: "December 2017",
     subtitle: "Student Representative",
-    description: "Recommended by Dean of Students to serve as Student Representative. Interviewed 9 candidates and helped narrow to 1",
+    description:
+      "Recommended by Dean of Students to serve as Student Representative. Interviewed 9 candidates and helped narrow to 1",
   },
   {
     icon: "down-circle",
@@ -68,50 +71,55 @@ const accomplishmentsList = [
     title: "HackWITUs 3",
     date: "November 2018",
     subtitle: "Head of Sponsorship",
-    description: "New position to soley focus on sponsorship management (inspired by SheHacks organization team)",
+    description:
+      "New position to soley focus on sponsorship management (inspired by SheHacks organization team)",
   },
   {
     icon: "down-circle",
     title: "Information Security Council",
     date: "January 2019",
     subtitle: "Student Representative",
-    description: "Recommended by Director of Student Engagement. Brainstorm with CIO and various faculty members on how to increase campus data security",
+    description:
+      "Recommended by Director of Student Engagement. Brainstorm with CIO and various faculty members on how to increase campus data security",
   },
 ];
 
 class Accomplishments extends Component {
+  renderTitle = (title) => (
+    <div>
+      <h3 className="accomplishmentTitle">{title}</h3>
+    </div>
+  );
 
-    renderTitle = (title, subtitle) => (
-      <div>
-        <h3 className="accomplishmentTitle">{title}</h3>
-        <h5 className="accomplishmentSubtitle">{subtitle}</h5>
-      </div>
-    )
+  renderDescription = (date, description, subtitle) => (
+    <div>
+      <h3 className="accomplishmentSubtitle" style={{ color: "blue" }}>{subtitle}</h3>
+      <h5 className="accomplishmentDate" style={{ fontStyle: "italic" }}>{date}</h5>
+      <ul><li>{description}</li></ul>
+    </div>
+  );
 
-    renderDescription = (date, description) => (
-      <div>
-        <h5 className="accomplishmentDate">{date}</h5> 
-        <p>{description}</p>
-      </div>
-    )
-
-    render() {
-      return (
-        <MainLayout selectedKey={this.props.location.pathname}> 
-          <Steps direction="vertical" current={accomplishmentsList.length - 1} style={{ margin: 32, wordWrap: "break-word" }}>
-            {accomplishmentsList.map(item => (
-              <Steps.Step 
-                style={{ padding: "10px", wordWrap: "break-word" }}
-                key={item.title}
-                icon={<Icon type={item.icon} />}
-                title={this.renderTitle(item.title, item.subtitle)}
-                description={this.renderDescription(item.date, item.description)}
-              />
-            ))}
-          </Steps>
-        </MainLayout> 
-      );
-    }
+  render() {
+    return (
+      <MainLayout selectedKey={this.props.location.pathname}>
+        <Collapse
+          defaultActiveKey={[accomplishmentsList[0].title]}
+          style={{ margin: 32, wordWrap: "break-word" }}
+        >
+          {accomplishmentsList.map((item) => (
+            <Collapse.Panel
+              style={{ padding: "10px", wordWrap: "break-word" }}
+              key={item.title}
+              icon={<Icon type={item.icon} />}
+              header={this.renderTitle(item.title)}
+            >
+              {this.renderDescription(item.date, item.description, item.subtitle)}
+            </Collapse.Panel>
+          ))}
+        </Collapse>
+      </MainLayout>
+    );
+  }
 }
 
-export default Accomplishments
+export default Accomplishments;

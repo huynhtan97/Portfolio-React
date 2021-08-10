@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { Collapse, Icon } from 'antd';
 import MainLayout from '../../layout/MainLayout';
-import { Steps, Icon } from 'antd';
 
 const workExperiencesList = [
   {
@@ -41,34 +41,39 @@ const workExperiencesList = [
 ];
 
 class WorkExperiences extends Component {
-  renderTitle = (title, subtitle) => (
+  renderTitle = (title) => (
     <div>
       <h3 className="accomplishmentTitle">{title}</h3>
-      <h5 className="accomplishmentSubtitle">{subtitle}</h5>
     </div>
-  )
+  );
 
-  renderDescription = (date, description) => (
+  renderDescription = (date, description, subtitle) => (
     <div>
-      <h5 className="accomplishmentDate">{date}</h5> 
-      <p>Skills: {description}</p>
+      <h3 className="accomplishmentSubtitle" style={{ color: "blue" }}>{subtitle}</h3>
+      <h5 className="accomplishmentDate" style={{ fontStyle: "italic" }}>{date}</h5>
+      <ul><li>{description}</li></ul>
     </div>
-  )
+  );
 
   render() {
     return (
-      <MainLayout selectedKey={this.props.location.pathname}> 
-        <Steps direction="vertical" current={workExperiencesList.length - 1} style={{ margin: 32, wordWrap: "break-word" }}>
-          {workExperiencesList.map(item => (
-            <Steps.Step 
+      <MainLayout selectedKey={this.props.location.pathname}>
+        <Collapse
+          defaultActiveKey={[workExperiencesList[0].title]}
+          style={{ margin: 32, wordWrap: "break-word" }}
+        >
+          {workExperiencesList.map((item) => (
+            <Collapse.Panel
+              style={{ padding: "10px", wordWrap: "break-word" }}
               key={item.title}
               icon={<Icon type={item.icon} />}
-              title={this.renderTitle(item.title, item.subtitle)}
-              description={this.renderDescription(item.date, item.description)}
-            />
+              header={this.renderTitle(item.title)}
+            >
+              {this.renderDescription(item.date, item.description, item.subtitle)}
+            </Collapse.Panel>
           ))}
-        </Steps>
-      </MainLayout> 
+        </Collapse>
+      </MainLayout>
     );
   }
 }

@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Row, Col, Card, Layout, Icon } from "antd";
+import TextTransition, { presets } from "react-text-transition";
 import MainLayout from "../../layout/MainLayout";
 import profileImage from "../../assets/images/PersonalPic.jpg";
 
-import "./index.css"
+import "./index.css";
 
 const { Content } = Layout;
 
@@ -43,74 +44,118 @@ const contactInfo = [
     link: "https://medium.com/hackwitus/meet-an-2406e0d7540d",
     textInfo: "@anhuynh_5895",
     icon: "medium",
-  }
-]
+  },
+];
 
-class Landing extends Component {
+const subtitles = [
+  "Big Data Programming",
+  "Front End Programming",
+  "Data Analysis",
+];
 
-  renderLanding() {
-    return (
-      <Content className="landingField">
-        <h1 className="mainTitle">Welcome to my site</h1>
-        <h3 className="subTitle">BA in Computer Science - Class of 2019</h3>
-        <span className="bannerButtons">
-          <Button type="primary" href="https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume.pdf">Resume</Button>
-          <Button href="https://huynhtan97.github.io/Portfolio/">My AngularJs Site</Button>
-        </span>
-      </Content>
+const Landing = () => {
+  const [subtitleIndex, setSubtitleIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setSubtitleIndex((index) => index + 1),
+      3000
     );
-  };
-  renderAboutMe() {
-    return (
-      <Content className="aboutMe">
-        <Row gutter={16} align="middle">
-        <Col md={12} xs={24}>
-          <img className="profileImage" alt="profileImage" src={profileImage} /> 
+    return () => clearTimeout(intervalId);
+  }, []);
+
+  return (
+    <Content className="landingField">
+      <h1 className="mainTitle">An Truc Huynh</h1>
+      <h2 className="subTitle">
+        <TextTransition
+          text={subtitles[subtitleIndex % subtitles.length]}
+          springConfig={presets.wobbly}
+        />
+      </h2>
+      <Row gutter={16} align="middle">
+        <Col xl={12} lg={12} md={12} sm={24} xs={24}>
+          <Button
+            className="bannerButton"
+            type="primary"
+            href="https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume.pdf"
+          >
+            Resume
+          </Button>
         </Col>
-        <Col md={12} xs={24}>
-          <Card className="aboutMeCard" title="About Me">
-            <p>Hi! Thank you for visiting my website!</p>
-            <p>I graduated from Wentworth Institute of Technology with a Bachelor's degree in Computer Science with a minor in Applied Math. I'm originally from West Hartford, CT and decided to move to the city
-              in order to meet new people and seek opportunities.</p>
-            <p>I got into the field back in my Junior Year of high school where I took my first computer programming class. From there, I have both
-              learned and gotten involved more within the field from attending hackathons, to self-teaching myself various languages like Javascript and PHP.</p>
-            <p><b>To view my skills, projects, achievements, and work experience:</b> Please navigate to the page in sidenav </p>
+        <Col xl={12} lg={12} md={12} sm={24} xs={24}>
+          <Button
+            className="bannerButton"
+            href="https://huynhtan97.github.io/Portfolio/"
+          >
+            My AngularJs Site
+          </Button>
+        </Col>
+      </Row>
+    </Content>
+  );
+};
+
+const AboutMe = () => (
+  <Content className="aboutMe">
+    <Row gutter={16} align="middle">
+      <Col md={12} xs={24}>
+        <img className="profileImage" alt="profileImage" src={profileImage} />
+      </Col>
+      <Col md={12} xs={24}>
+        <Card className="aboutMeCard" title="About Me">
+          <p>Hi! Thank you for visiting my website!</p>
+          <p>
+            I graduated from Wentworth Institute of Technology with a Bachelor's
+            degree in Computer Science with a minor in Applied Math. I'm
+            originally from West Hartford, CT and decided to move to the city in
+            order to meet new people and seek opportunities.
+          </p>
+          <p>
+            I got into the field back in my Junior Year of high school where I
+            took my first computer programming class. From there, I have both
+            learned and gotten involved more within the field from attending
+            hackathons, to self-teaching myself various languages like
+            Javascript and PHP.
+          </p>
+          <p>
+            <b>
+              To view my skills, projects, achievements, and work experience:
+            </b>{" "}
+            Please navigate to the page in sidenav{" "}
+          </p>
+        </Card>
+      </Col>
+    </Row>
+  </Content>
+);
+
+const ContactInfo = () => (
+  <Content className="contactInfo">
+    <Row gutter={16}>
+      {contactInfo.map((item) => (
+        <Col md={8} xs={24} style={{ marginBottom: "16px" }}>
+          <Card key={item.name} style={{ width: 300 }}>
+            <Card.Meta
+              avatar={<Icon type={item.icon} />}
+              title={item.name}
+              description={<a href={item.link}>{item.textInfo}</a>}
+            />
           </Card>
         </Col>
-        </Row>
-      </Content>
-     );
-  };
-  renderContactInfo() {
-    return (
-      <Content className="contactInfo">
-        <Row gutter={16}>
-        {contactInfo.map(item => (
-          <Col md={8} xs={24} style={{ marginBottom: "16px" }}>
-            <Card key={item.name} style={{ width: 300 }}>
-              <Card.Meta
-                avatar={<Icon type={item.icon} />}
-                title={item.name}
-                description={<a href={item.link}>{item.textInfo}</a>}
-              />
-            </Card>
-          </Col>
-          ))}
-        </Row>
-      </Content>
-    )
-    };
-  render() {
-    return (
-      <MainLayout selectedKey={this.props.location.pathname}>
-        <div style={{ flexDirection: "column" }}>
-          {this.renderLanding()}
-          {this.renderAboutMe()}
-          {this.renderContactInfo()}
-        </div>
-      </MainLayout>
-    );
-  }
-}
+      ))}
+    </Row>
+  </Content>
+);
 
-export default Landing;
+const Main = ({ location }) => (
+  <MainLayout selectedKey={location.pathname}>
+    <div style={{ flexDirection: "column" }}>
+      <Landing />
+      <AboutMe />
+      <ContactInfo />
+    </div>
+  </MainLayout>
+);
+
+export default Main;
