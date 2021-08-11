@@ -63,7 +63,7 @@ const accomplishmentsList = [
     date: "January 2018",
     subtitle: "Winner of Most Innovative Project and She</Learns> Challenge",
     description:
-      "Lead group of 5 novice programmers to build mobile app that allows victims of sexual/domestic violence to report evidence discreetly from abusers using Android Studio and Firebase.",
+      "Competed against 100+ teams. Lead group of 5 novice programmers to build mobile app that allows victims of sexual/domestic violence to report evidence discreetly from abusers using Android Studio and Firebase.",
   },
   {
     icon: "down-circle",
@@ -95,13 +95,13 @@ const accomplishmentsList = [
     date: "January 2019",
     subtitle: "Winner of IBM's Best Use of AI Challenge",
     description:
-      "Created prototype of an IOT facial recognition app that identified people based on an unbiased dataset using TensorFlow, Raspberry Pi, NodeRed, and OpenCV (Javascript and Python).",
+      "Competed against 100+ teams. Created prototype of an IOT facial recognition app that identified people based on an unbiased dataset using TensorFlow, Raspberry Pi, NodeRed, and OpenCV (Javascript and Python).",
   },
   {
     icon: "down-circle",
     title: "Wentworth's Dean's List",
     date: "December 2015 - December 2019",
-    subtitle: "Winner of IBM's Best Use of AI Challenge",
+    subtitle: "Dean's List Recipient",
     description:
       "Placed on Dean's List at the end of every semester enrolled in school. Requirement is a minimum of a 3.50 GPA.",
   },
