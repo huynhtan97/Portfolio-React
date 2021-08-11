@@ -10,22 +10,21 @@ const accomplishmentsList = [
     date: "September 2016",
     subtitle: "Treasurer",
     description:
-      "Elected Treasurer for Wentworth's first Computer Science organization that is a Chapter of ACM",
+      "Elected Treasurer for Wentworth's first Computer Science organization that is a Chapter of ACM. Wentworth's Computer Science Society was later awarded Organization of the Year in 2017.",
   },
   {
     icon: "down-circle",
     title: "HackWITUs 1",
     date: "March 2017",
     subtitle: "Head of Finance",
-    description: `https://hackwit.us/ - Helped raise more than $10,000 in sponsorships through reaching out to personal network and company representatives. 
-                  Managed event's cash flow (Food, Venue ..etc) and maintained transparency with spreadsheets`,
+    description: `https://hackwit.us/ - Helped raise more than $10,000 in sponsorships from companies such as GoPuff, Webster Bank, HealthcareSource, and Automation. Managed event's cash flow and maintained transparency with team using Excel.`,
   },
   {
     icon: "down-circle",
     title: "LeaderShape",
     date: "May 2017",
     subtitle: "Sponsored by Wentworth",
-    description: `https://www.leadershape.org/ - Learned how to become an impactful leader in my community and be inclusive of team members`,
+    description: `https://www.leadershape.org/ - Attended 4 day retreat where students from all around America learned how to become impactful leaders in their communities and be inclusive of their team members.`,
   },
   {
     icon: "down-circle",
@@ -40,7 +39,7 @@ const accomplishmentsList = [
     date: "October 2017",
     subtitle: "Sponsored by Wentworth",
     description: `Sponsored by Wentworth to attend Node.js Interactive conference 2017 in Vancouver, Canada. Networked with developers in industry,
-                  learned how various companies utilize Javascript frameworks, and attended live demos`,
+                  learned how various companies utilize Javascript frameworks, and attended live workshops`,
   },
   {
     icon: "down-circle",
@@ -48,7 +47,7 @@ const accomplishmentsList = [
     date: "November 2017",
     subtitle: "Head of Finance",
     description:
-      "Served as Head of Finance again for Wentworth's second annual hackathon. Helped raise more than $10,000 in sponsorships",
+      "Served as Head of Finance again for Wentworth's second annual hackathon. Helped raise more than $10,000 in sponsorships from companies such as Microsoft and Webster Bank.",
   },
   {
     icon: "down-circle",
@@ -56,15 +55,23 @@ const accomplishmentsList = [
     date: "December 2017",
     subtitle: "Student Representative",
     description:
-      "Recommended by Dean of Students to serve as Student Representative. Interviewed 9 candidates and helped narrow to 1",
+      "Recommended by Dean of Students to serve as Student Representative. Interviewed 9 candidates and helped narrow down to 1",
+  },
+  {
+    icon: "down-circle",
+    title: "SheHacks Boston",
+    date: "January 2018",
+    subtitle: "Winner of Most Innovative Project and She</Learns> Challenge",
+    description:
+      "Lead group of 5 novice programmers to build mobile app that allows victims of sexual/domestic violence to report evidence discreetly from abusers using Android Studio and Firebase.",
   },
   {
     icon: "down-circle",
     title: "Community Standards Board",
     date: "April 2018",
     subtitle: "Council Member",
-    description: `Passed interview and leadership elimination round to become elected Community Standards Board member. 
-                  Purpose of board is to enforce school's code of conduct.`,
+    description: `Passed interview and leadership elimination round to become one of Wentworth's Community Standards Board member. 
+                  Purpose of board is to discuss ways to enforce school's code of conduct.`,
   },
   {
     icon: "down-circle",
@@ -72,7 +79,7 @@ const accomplishmentsList = [
     date: "November 2018",
     subtitle: "Head of Sponsorship",
     description:
-      "New position to soley focus on sponsorship management (inspired by SheHacks organization team)",
+      "New position to solely focus on sponsorship management (inspired by TechTogether team format). Helped raise more than $15,000 in sponsorships from companies such as Google and Microsoft.",
   },
   {
     icon: "down-circle",
@@ -80,7 +87,23 @@ const accomplishmentsList = [
     date: "January 2019",
     subtitle: "Student Representative",
     description:
-      "Recommended by Director of Student Engagement. Brainstorm with CIO and various faculty members on how to increase campus data security",
+      "Recommended by Wentworth's Director of Student Engagement to join the school's Information Security Council. Brainstormed with CIO and various faculty members on how to increase campus data security",
+  },
+  {
+    icon: "down-circle",
+    title: "TechTogether Boston 2019",
+    date: "January 2019",
+    subtitle: "Winner of IBM's Best Use of AI Challenge",
+    description:
+      "Created prototype of an IOT facial recognition app that identified people based on an unbiased dataset using TensorFlow, Raspberry Pi, NodeRed, and OpenCV (Javascript and Python).",
+  },
+  {
+    icon: "down-circle",
+    title: "Wentworth's Dean's List",
+    date: "December 2015 - December 2019",
+    subtitle: "Winner of IBM's Best Use of AI Challenge",
+    description:
+      "Placed on Dean's List at the end of every semester enrolled in school. Requirement is a minimum of a 3.50 GPA.",
   },
 ];
 
