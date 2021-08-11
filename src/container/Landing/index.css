@@ -36,6 +36,12 @@
 
 }
 
+.bannerButton {
+    width: 250px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
 /* About me */
 .profileImage {
     max-width: 100%;
@@ -57,10 +63,4 @@
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;    
-}
-
-.bannerButton {
-    width: 250px;
-    margin-bottom: 12px;
-    font-weight: bold;
 }

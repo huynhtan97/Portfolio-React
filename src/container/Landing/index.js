@@ -41,7 +41,7 @@ const contactInfo = [
   },
   {
     name: "Medium",
-    link: "https://medium.com/hackwitus/meet-an-2406e0d7540d",
+    link: "https://medium.com/@anhuynh_5895",
     textInfo: "@anhuynh_5895",
     icon: "medium",
   },
@@ -106,23 +106,19 @@ const AboutMe = () => (
         <Card className="aboutMeCard" title="About Me">
           <p>Hi! Thank you for visiting my website!</p>
           <p>
-            I graduated from Wentworth Institute of Technology with a Bachelor's
-            degree in Computer Science with a minor in Applied Math. I'm
-            originally from West Hartford, CT and decided to move to the city in
-            order to meet new people and seek opportunities.
+            {"I received my Bachelor's Degree in Computer Science with a minor in Applied Math from Wentworth Institute of Technology in December 2019."}
           </p>
           <p>
-            I got into the field back in my Junior Year of high school where I
-            took my first computer programming class. From there, I have both
-            learned and gotten involved more within the field from attending
-            hackathons, to self-teaching myself various languages like
-            Javascript and PHP.
+            {"I'm originally from West Hartford, CT, but decided to move to the big city to meet new people and explore opportunities. I knew I wanted to be in this field after I completed my first computer programming class in Junior year of highschool."}
+          </p>
+          <p>
+            {"Since then, I got expand upon my knowledge by attending hackathons, tech workshops, undergrad work, and from teaching myself via online resources."}
           </p>
           <p>
             <b>
               To view my skills, projects, achievements, and work experience:
             </b>{" "}
-            Please navigate to the page in sidenav{" "}
+            Please navigate to the corresponding pages in sidenav menu {" "}
           </p>
         </Card>
       </Col>
