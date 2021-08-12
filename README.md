@@ -1,5 +1,7 @@
 ## Available Scripts
 
+For this project, I'm using yarn instead of npm.
+
 In the project directory, you can run:
 
 ### `npm start`
