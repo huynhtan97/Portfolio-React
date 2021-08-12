@@ -112,7 +112,7 @@ const AboutMe = () => (
             {"I'm originally from West Hartford, CT, but decided to move to the big city to meet new people and explore opportunities. I knew I wanted to be in this field after I completed my first computer programming class in Junior year of highschool."}
           </p>
           <p>
-            {"Since then, I got expand upon my knowledge by attending hackathons, tech workshops, undergrad work, and from teaching myself via online resources."}
+            {"Since then, I got to expand upon my knowledge by attending hackathons, tech workshops, undergrad work, and from teaching myself via online resources."}
           </p>
           <p>
             <b>
