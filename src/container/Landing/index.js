@@ -9,12 +9,12 @@ import "./index.css";
 const { Content } = Layout;
 
 const contactInfo = [
-  {
-    name: "Phone Number",
-    link: "tel:+1 (860) 794-1274",
-    textInfo: "+1 (860) 794-1274",
-    icon: "phone",
-  },
+  // {
+  //   name: "Phone Number",
+  //   link: "tel:+1 (860) 794-1274",
+  //   textInfo: "+1 (860) 794-1274",
+  //   icon: "phone",
+  // },
   {
     name: "Email",
     link: "mailto:anh9263@gmail.com",
@@ -78,7 +78,7 @@ const Landing = () => {
           <Button
             className="bannerButton"
             type="primary"
-            href="https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume.pdf"
+            href="" // https://huynhtan97.github.io/Portfolio/assets/AnHuynhResume.pdf
           >
             Resume
           </Button>
@@ -106,13 +106,13 @@ const AboutMe = () => (
         <Card className="aboutMeCard" title="About Me">
           <p>Hi! Thank you for visiting my website!</p>
           <p>
-            {"I received my Bachelor's Degree in Computer Science with a minor in Applied Math from Wentworth Institute of Technology in December 2019."}
+            {"I received my Bachelor's Degree in Computer Science with a minor in Applied Math from Wentworth Institute of Technology."}
           </p>
           <p>
-            {"I'm originally from West Hartford, CT, but decided to move to the big city to meet new people and explore opportunities. I knew I wanted to be in this field after I completed my first computer programming class in Junior year of highschool."}
+            {""}
           </p>
           <p>
-            {"Since then, I got to expand upon my knowledge by attending hackathons, tech workshops, undergrad work, and from teaching myself via online resources."}
+            {"I've learned how to build projects from attending hackathons, tech workshops, undergrad work, and from teaching myself via online resources."}
           </p>
           <p>
             <b>
