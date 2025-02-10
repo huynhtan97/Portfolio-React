@@ -1,0 +1,327 @@
+{
+    "basic": {
+      "name": "An Truc Huynh",
+      "label": "Software Engineer",
+      "picture": "",
+      "email": "anh9263@gmail.com",
+      "phone": "",
+      "website": "",
+      "summary": "",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "NYC",
+        "countryCode": "US",
+        "region": "New York"
+      },
+      "profiles": [
+        {
+          "network": "Email",
+          "url": "mailto:anh9263@gmail.com",
+          "username": "anh9263@gmail.com"
+        },
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/huynhtan1/",
+          "username": "An Huynh"
+        },
+        {
+          "network": "GitHub",
+          "url": "https://github.com/huynhtan97",
+          "username": "huynhtan97"
+        },
+        {
+          "network": "Location",
+          "url": "https://goo.gl/maps/xU5yeBia2uahncK19",
+          "username": "New York, NY"
+        },
+        {
+          "network": "Medium",
+          "url": "https://medium.com/@anhuynh_5895",
+          "username": "@anhuynh_5895"
+        }
+      ]
+    },
+    "work": [
+      {
+        "title": "Staples, Inc",
+        "date": "June 2017 - Auguest 2017",
+        "subtitle": "Digital Solutions Intern",
+        "description": "AngularJs, Javascript, REST APIs, and Python"
+      },
+      {
+        "title": "Eaton Vance",
+        "date": "January 2018 - May 2018",
+        "subtitle": "IT Distribution Systems Intern",
+        "description": "Angular 5, PL/SQL, PHP, and Oracle Database"
+      },
+      {
+        "title": "Pegasystems",
+        "date": "May 2018 - August 2018",
+        "subtitle": "Junior System Architect Intern",
+        "description": "Jenkins, Python, and Agile-Scrum methodology"
+      },
+      {
+        "title": "Amazon Robotics",
+        "date": "September 2018 - December 2018",
+        "subtitle": "Solution Analytics Intern",
+        "description": "Java, AngularJs, Webpack, Coral Service Framework, AWS Lambda, and AWS DynamoDB"
+      },
+      {
+        "title": "John Hancock",
+        "date": "October 2019 - June 2020",
+        "subtitle": "Data Engineer",
+        "description": "Java, Scala, SQL/HQL, Hadoop, Hive, Shell/Bash, Apache Ranger, Maven, Azure, and CA Workload Automation."
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Developh Vietnam",
+        "position": "Technical Leader",
+        "website": "https://www.develophvn.tech",
+        "startDate": "02/2021",
+        "endDate": "Present",
+        "summary": "Developh Vietnam is a community based organization dedicated to deliver engineer education to everyone who is interested",
+        "highlights": [
+          "Design and teach a DIY full stack development course to help over 30 students with various background build their first software product",
+          "Organize a team of 10 mentors to provide assistance, technical resources to our students",
+          "Run workshops and webinar series to introduce students to best Software Engineering practices"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Wentworth Institute of Technology",
+        "area": "Computer Science",
+        "studyType": "Bachelor of Science",
+        "startDate": "08/2015",
+        "endDate": "08/2018",
+        "gpa": "3.7",
+        "minors": [
+          "Applied Mathematics",
+          "Computer Networking"
+        ],
+        "courses": [
+          "Algorithms",
+          "Computer Organization",
+          "Computer Science I & II",
+          "Data Structures",
+          "Databases",
+          "Differential Equations",
+          "Discrete Math",
+          "Engineering Calculus I & II",
+          "Intro to Artificial Intelligence",
+          "Intro to Numerical Analysis",
+          "Intro to Programming Language",
+          "Linear Algebra and Matrix Theory",
+          "Machine Learning",
+          "Network Programming",
+          "Parallel and Distributed Programming",
+          "Probability and Statistics",
+          "Software Engineering",
+          "WWW App Development"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "Wentworth's Computer Science Society",
+        "date": "September 2016",
+        "subtitle": "Treasurer",
+        "description":
+          "Elected Treasurer for Wentworth's first Computer Science organization that is a Chapter of ACM. Wentworth's Computer Science Society was later awarded Organization of the Year in 2017."
+      },
+      {
+        "title": "HackWITUs 1",
+        "date": "March 2017",
+        "subtitle": "Head of Finance",
+        "description": "https://hackwit.us/ - Helped raise more than $10,000 in sponsorships from companies such as GoPuff, Webster Bank, HealthcareSource, and Automation. Managed event's cash flow and maintained transparency with team using Excel."
+      },
+      {
+        "title": "LeaderShape",
+        "date": "May 2017",
+        "subtitle": "Sponsored by Wentworth",
+        "description": "https://www.leadershape.org/ - Attended 4 day retreat where students from all around America learned how to become impactful leaders in their communities and be inclusive of their team members."
+      },
+      {
+        "title": "Wentworth's Student Government",
+        "date": "September 2017",
+        "subtitle": "Treasurer",
+        "description": "First female elected Treasurer in 7+ years. Directed co-sponsorship program and managed annual $8500 budget"
+      },
+      {
+        "title": "Node.js Interactive 2017",
+        "date": "October 2017",
+        "subtitle": "Sponsored by Wentworth",
+        "description": "Sponsored by Wentworth to attend Node.js Interactive conference 2017 in Vancouver, Canada. Networked with developers in industry, learned how various companies utilize Javascript frameworks, and attended live workshops"
+      },
+      {
+        "title": "HackWITUs 2",
+        "date": "November 2017",
+        "subtitle": "Head of Finance",
+        "description":
+          "Served as Head of Finance again for Wentworth's second annual hackathon. Helped raise more than $10,000 in sponsorships from companies such as Microsoft and Webster Bank."
+      },
+      {
+        "title": "CIO Search Committee",
+        "date": "December 2017",
+        "subtitle": "Student Representative",
+        "description":
+          "Recommended by Dean of Students to serve as Student Representative. Interviewed 9 candidates and helped narrow down to 1"
+      },
+      {
+        "title": "SheHacks Boston",
+        "date": "January 2018",
+        "subtitle": "Winner of Most Innovative Project and She</Learns> Challenge",
+        "description":
+          "Competed against 100+ teams. Lead group of 5 novice programmers to build mobile app that allows victims of sexual/domestic violence to report evidence discreetly from abusers using Android Studio and Firebase."
+      },
+      {
+        "title": "Community Standards Board",
+        "date": "April 2018",
+        "subtitle": "Council Member",
+        "description": "Passed interview and leadership elimination round to become one of Wentworth's Community Standards Board member. Purpose of board is to discuss ways to enforce school's code of conduct."
+      },
+      {
+        "title": "HackWITUs 3",
+        "date": "November 2018",
+        "subtitle": "Head of Sponsorship",
+        "description":
+          "New position to solely focus on sponsorship management (inspired by TechTogether team format). Helped raise more than $15,000 in sponsorships from companies such as Google and Microsoft."
+      },
+      {
+        "title": "Information Security Council",
+        "date": "January 2019",
+        "subtitle": "Student Representative",
+        "description":
+          "Recommended by Wentworth's Director of Student Engagement to join the school's Information Security Council. Brainstormed with CIO and various faculty members on how to increase campus data security"
+      },
+      {
+        "title": "TechTogether Boston 2019",
+        "date": "January 2019",
+        "subtitle": "Winner of IBM's Best Use of AI Challenge",
+        "description":
+          "Competed against 100+ teams. Created prototype of an IOT facial recognition app that identified people based on an unbiased dataset using TensorFlow, Raspberry Pi, NodeRed, and OpenCV (Javascript and Python)."
+      },
+      {
+        "title": "Wentworth's Dean's List",
+        "date": "December 2015 - December 2019",
+        "subtitle": "Dean's List Recipient",
+        "description":
+          "Placed on Dean's List at the end of every semester enrolled in school. Requirement is a minimum of a 3.50 GPA."
+      }
+    ],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Languages",
+        "level": "",
+        "keywords": [
+          "Python",
+          "Java",
+          "JavaScript"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "level": "",
+        "keywords": [
+          "Angular",
+          "React"
+        ]
+      },
+      {
+        "name": "Database & Big Data",
+        "level": "",
+        "keywords": [
+          "Postgres",
+          "MS SQL Server",
+          "Cassandra",
+          "Spark",
+          "Hadoop & Hive"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "level": "",
+        "keywords": [
+          "Git"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "level": "",
+        "keywords": [
+          "AWS"
+        ]
+      }
+    ],
+    "languages": [],
+    "projects": [
+      {
+        "name": "shefightsback",
+        "url": "https://github.com/huynhtan97/sheFightsBack"
+      },
+      {
+        "name": "SafetyNet",
+        "url": "https://github.com/huynhtan97/safetynetWeb"
+      },
+      {
+        "name": "AAAI Research Submission",
+        "url": "https://huynhtan97.github.io/Portfolio/assets/AAAI_Gesture_Abstract.pdf"
+      },
+      {
+        "name": "Everlead",
+        "url": "https://github.com/huynhtan97/Everlead"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Technology",
+        "keywords": [
+          "Web Developments"
+        ]
+      },
+      {
+        "name": "Hobbies",
+        "keywords": [
+          "Programming"
+        ]
+      }
+    ],
+    "references": [],
+    "custom": {
+      "affiliations": [
+        {
+          "title": "Founder/Head of Organizers",
+          "entity": "HackWITUs",
+          "year": "2016 - 2017"
+        }
+      ],
+      "bio": [
+        "Hi! Thank you for visiting my website!",
+        "I received my Bachelor's Degree in Computer Science with a minor in Applied Math from Wentworth Institute of Technology.",
+        "I've learned how to build projects from attending hackathons, tech workshops, undergrad work, and from teaching myself via online resources."
+      ],
+      "keywordTags": [
+        "Software Engineer"
+      ],
+      "contacts": [
+        {
+          "key": "Email",
+          "icon": {
+            "type": "Icon",
+            "value": "Email"
+          },
+          "value": "dat.b.do@gmail.com",
+          "link": "mailto:dat.b.do@gmail.com"
+        }
+    ]
+    },
+    "faq": [
+      {
+        "category": "Building Rapport",
+        "question": "What did you want to be when you grew up?",
+        "answer": "The short answer is to be happy. The long answer is finding out what makes me happy. At the moment, I think I do want to be some form of entrepreneur-ship in the next 5-10 years."
+        }]
+  }

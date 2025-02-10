@@ -1,3 +1,5 @@
+import { AiFillHome, AiFillEdit, AiFillFolder, AiFillTrophy, AiFillProfile } from "react-icons/ai";
+
 import Landing from "./container/Landing";
 import Skills from "./container/Skills";
 import Projects from "./container/Projects";
@@ -10,35 +12,35 @@ export default [
     {
         name: "Home",
         component: Landing,
-        icon: "home",
+        Icon: AiFillHome,
         route: "/",
         exact: true
     },
     {
         name: "Skills",
         component: Skills,
-        icon: "edit",
+        Icon: AiFillEdit,
         route: "/skills",
         exact: false
     },
     {
         name: "Projects",
         component: Projects,
-        icon: "folder",
+        Icon: AiFillFolder,
         route: "/projects",
         exact: false
     },
     {
         name: "Accomplishments",
         component: Accomplishments,
-        icon: "trophy",
+        Icon: AiFillTrophy,
         route: "/accomplishments",
         exact: false
     },
     {
         name: "WorkExperiences",
         component: WorkExperiences,
-        icon: "profile",
+        Icon: AiFillProfile,
         route: "/workexperiences",
         exact: false
     },
