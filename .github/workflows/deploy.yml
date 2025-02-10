@@ -38,7 +38,7 @@ jobs:
 
       - name: install, build and test
         run: |
-          npm run install
+          npm install
           npm run build
 
       - uses: shallwefootball/s3-upload-action@master
