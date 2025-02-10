@@ -1,6 +1,6 @@
 ## Available Scripts
 
-For this project, I'm using yarn instead of npm.
+For this project, I migrated from Create React App to Rsbuild (https://rsbuild.dev/guide/migration/cra ) 
 
 In the project directory, you can run:
 
