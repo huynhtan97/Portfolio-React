@@ -1,9 +1,9 @@
 {
     "basic": {
-      "name": "An Truc Huynh",
+      "name": "An Huynh",
       "label": "Software Engineer",
       "picture": "",
-      "email": "anh9263@gmail.com",
+      "email": "",
       "phone": "",
       "website": "",
       "summary": "",
@@ -17,8 +17,8 @@
       "profiles": [
         {
           "network": "Email",
-          "url": "mailto:anh9263@gmail.com",
-          "username": "anh9263@gmail.com"
+          "url": "",
+          "username": ""
         },
         {
           "network": "LinkedIn",
